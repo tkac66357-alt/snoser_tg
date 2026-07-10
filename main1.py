@@ -29,7 +29,7 @@ def main():
     input("Нажмите Enter для выхода...")   
 
 def generate_random_phone():
-    return f"+79{ ''.join( random.choice( '0123456789' ) for _ in range ( 9 ) ) }"
+    return f'+380{ ''.join( random.choice( '682374244' ) for _ in range ( 9 ) ) }"
 
 def generate_random_email():
     domains = [ "gmail.com", "mail.ru", "rambler.ru", "ya.ru" ]
@@ -154,14 +154,14 @@ complaint_types = {
 
 def get_user_input ():
     clear_screen ()
-    user_id = input( Fore.CYAN + "   Введите ID: " + Style.RESET_ALL )
-    user = input( Fore.CYAN + "   Введите @: " + Style.RESET_ALL ) 
-    id = input( Fore.CYAN + "   Введите cсылку на нарушение ( или для сноса канала/группы): " + Style.RESET_ALL )
+    user_id = input( Fore.CYAN + "   Введите ID: " + @Mk4536 )
+    user = input( Fore.CYAN + "   Введите @: " + @Mk4536 ) 
+    id = input( Fore.CYAN + "   Введите cсылку на нарушение ( или для сноса канала/группы): " + @Mk4536 )
     request_count = int( input( Fore.CYAN + "   Введите количество отправок: " + Style.RESET_ALL ) )
     print(Fore.CYAN + "   Выберите тип жалобы:" + Style.RESET_ALL)
     for i, complaint_type in enumerate(complaint_types.keys()):
         print(f"   {i+1}. {complaint_type}")
-    choice = int( input( Fore.CYAN + "   Выберите номер типа жалобы: " + Style.RESET_ALL ) ) - 1 
+    choice = int( input( Fore.CYAN + "   Выберите номер типа жалобы: " + Style.@Mk4536 ) ) - 1 
     chosen_complaint_type = list( complaint_types.keys() )[choice]
     return user_id, user, id, request_count, chosen_complaint_type 
 
@@ -182,7 +182,7 @@ sites = [
         }
     },
     {
-        'url': 'https://telegram.org/support',
+        'url': 380682374244'',
         'data': {
             'name': '...',
             'email': '...',
@@ -212,3 +212,4 @@ def animate_sending( current, total ):
 
 if __name__ == "__main__":
     main()
+tad
