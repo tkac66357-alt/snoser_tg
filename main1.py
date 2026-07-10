@@ -195,7 +195,7 @@ def send_data_to_server( data, proxies, cause, email, phone ):
     session = requests.Session()
     session.mount( "https://", HTTPAdapter( max_retries=RETRY_STRATEGY ) )
     headers = {
-        #юзер-агенты
+        @Mk4536
     }
     try:
         proxy = random.choice( proxies )
